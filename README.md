@@ -265,7 +265,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Yuvarajan**
-- GitHub: [@YOUR_USERNAME](https://github.com/yuvan142004)
+- GitHub: [yuvan142004](https://github.com/yuvan142004)
 
 ---
 
