@@ -2,13 +2,6 @@
 
 > An intelligent Android expense tracker that **automatically reads your bank SMS messages**, classifies transactions using on-device AI, and gives you real-time spending insights — no manual entry required.
 
----
-
-## 📱 Screenshots
-
-> _Add screenshots here once you have the app running on a device._
-
----
 
 ## ✨ Features
 
