@@ -9,7 +9,6 @@
 - **🤖 On-Device AI Classification** — Three TensorFlow Lite models run entirely on the phone (no internet needed): category classifier, anomaly detector, and spending predictor.
 - **📊 Visual Spending Dashboard** — Pie, bar, and line charts powered by MPAndroidChart with date-range filters (week / month / year / custom).
 - **🏦 UPI Payment Tracking** — Launch GPay, PhonePe, or any UPI app from within the app. Payments are saved as PENDING and auto-confirmed when the bank SMS arrives.
-- **📷 QR Code Scanner** — Scan UPI QR codes using CameraX + ML Kit Barcode Scanning to auto-fill payment details.
 - **🔔 Budget Alerts** — Set monthly spending limits per category. WorkManager checks every 6 hours and sends a notification when you're close to or over the limit.
 - **🔄 Recurring Expense Reminders** — Log subscriptions and monthly bills; get daily reminders before they're due.
 - **🔒 Biometric / PIN Lock** — Protect the app with fingerprint, face unlock, or a 4-digit PIN using AndroidX BiometricPrompt.
@@ -266,7 +265,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## 👤 Author
 
 **Yuvarajan**
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: [@YOUR_USERNAME](https://github.com/yuvan142004)
 
 ---
 
