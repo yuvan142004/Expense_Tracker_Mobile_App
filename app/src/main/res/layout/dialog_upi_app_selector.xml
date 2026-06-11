@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your UPI app:"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"/>
+
+    <ListView
+        android:id="@+id/listViewUpiApps"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:choiceMode="singleChoice"/>
+
+    <CheckBox
+        android:id="@+id/cbRememberChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember my choice for QR payments"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+
+    <!-- Onboarding -->
+    <string name="onboard_step1_title">What\'s your name?</string>
+    <string name="onboard_step2_title">Add your bank accounts</string>
+    <string name="onboard_step3_title">Grant Permissions</string>
+    <string name="onboard_step4_title">Set up App Lock</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_finish">Get Started</string>
+    <string name="btn_add_account">Add Account</string>
+
+    <!-- Lock -->
+    <string name="lock_title">Verify Identity</string>
+    <string name="lock_pin_hint">Enter PIN</string>
+    <string name="btn_unlock">Unlock</string>
+
+    <!-- Home -->
+    <string name="today_expense">Today\'s Expense</string>
+    <string name="week_expense">This Week</string>
+    <string name="chart_type_pie">Pie Chart</string>
+    <string name="chart_type_bar">Bar Chart</string>
+    <string name="chart_type_line">Line Chart</string>
+
+    <!-- Add -->
+    <string name="btn_manual_entry">Manual Entry</string>
+    <string name="btn_qr_scan">Scan QR &amp; Pay</string>
+
+    <!-- History -->
+    <string name="search_hint">Search transactions…</string>
+    <string name="no_transactions">No transactions found</string>
+
+    <!-- Alerts -->
+    <string name="tab_budget_limits">Budget Limits</string>
+    <string name="tab_recurring">Recurring</string>
+
+    <!-- General -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="currency_symbol">₹</string>
+</resources>

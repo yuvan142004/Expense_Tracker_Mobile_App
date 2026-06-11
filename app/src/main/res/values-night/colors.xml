@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Night-mode color overrides.
+  When AppCompatDelegate.MODE_NIGHT_YES is active, Android automatically
+  picks this file over res/values/colors.xml.
+-->
+<resources>
+    <!-- Surfaces -->
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="card_bg">#2C2C2C</color>
+
+    <!-- Text — fully legible on dark surfaces -->
+    <color name="text_primary">#EFEFEF</color>
+    <color name="text_secondary">#ABABAB</color>
+    <color name="text_hint">#888888</color>
+
+    <!-- Brand — lighter/brighter so they remain visible on dark backgrounds -->
+    <color name="primary">#90CAF9</color>
+    <color name="primary_dark">#64B5F6</color>
+    <color name="primary_light">#1565C0</color>
+    <color name="accent">#FFB74D</color>
+
+    <!-- Transaction type colors — slightly lighter for dark bg legibility -->
+    <color name="debit_red">#EF9A9A</color>
+    <color name="credit_green">#A5D6A7</color>
+
+    <!-- Status -->
+    <color name="success">#A5D6A7</color>
+    <color name="error">#EF9A9A</color>
+    <color name="warning">#FFE082</color>
+
+    <!-- Bottom nav -->
+    <color name="bottom_nav_selected">#90CAF9</color>
+    <color name="bottom_nav_unselected">#757575</color>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="12dp"
+    android:background="?attr/colorSurface"
+    android:layout_marginBottom="6dp">
+
+    <!-- Bank icon placeholder -->
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/circle_primary"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="Bank" />
+
+    <!-- Account label -->
+    <TextView
+        android:id="@+id/tvAccountLabel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurface" />
+
+    <!-- Remove button -->
+    <ImageView
+        android:id="@+id/ivRemoveAccount"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_close_red"
+        android:contentDescription="Remove account"
+        android:padding="2dp" />
+
+</LinearLayout>

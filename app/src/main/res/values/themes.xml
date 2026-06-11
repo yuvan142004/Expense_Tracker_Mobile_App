@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         BASE THEME  (Light / Blue palette — default)
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <style name="Theme.ExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <!-- Do NOT hardcode colorOutlineVariant — let Material3 DayNight resolve it -->
+    </style>
+
+    <!-- ── Dark theme (used for DARK mode via AppCompatDelegate) ────────────── -->
+    <!-- Note: actual switching is done via AppCompatDelegate.setDefaultNightMode()  -->
+    <!-- Theme.Material3.DayNight automatically adapts; we do NOT setTheme() for    -->
+    <!-- dark — we just call MODE_NIGHT_YES and the DayNight base handles the rest.  -->
+
+    <!-- AMOLED overlay — applied on top of dark theme for true-black backgrounds -->
+    <style name="ThemeOverlay.ExpenseTracker.Amoled" parent="ThemeOverlay.Material3.Dark">
+        <item name="android:windowBackground">#000000</item>
+        <item name="colorSurface">#0D0D0D</item>
+        <item name="colorOutlineVariant">#2A2A2A</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         PALETTE OVERLAYS — applied on top of any base theme via applyStyle().
+         Parent = ThemeOverlay so only the listed attributes are overridden.
+         ═══════════════════════════════════════════════════════════════════════ -->
+
+    <!-- Blue (default) -->
+    <style name="Palette.Blue" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryVariant">#0D47A1</item>
+        <item name="colorSecondary">#1565C0</item>
+    </style>
+
+    <!-- Green -->
+    <style name="Palette.Green" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">#388E3C</item>
+        <item name="colorPrimaryVariant">#1B5E20</item>
+        <item name="colorSecondary">#2E7D32</item>
+    </style>
+
+    <!-- Purple -->
+    <style name="Palette.Purple" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">#7B1FA2</item>
+        <item name="colorPrimaryVariant">#4A148C</item>
+        <item name="colorSecondary">#6A1B9A</item>
+    </style>
+
+    <!-- Orange -->
+    <style name="Palette.Orange" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">#E65100</item>
+        <item name="colorPrimaryVariant">#BF360C</item>
+        <item name="colorSecondary">#D84315</item>
+    </style>
+
+    <!-- Red -->
+    <style name="Palette.Red" parent="ThemeOverlay.Material3.Light">
+        <item name="colorPrimary">#C62828</item>
+        <item name="colorPrimaryVariant">#7F0000</item>
+        <item name="colorSecondary">#B71C1C</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         SPLASH THEME
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <style name="Theme.ExpenseTracker.Splash" parent="Theme.ExpenseTracker">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         CARD STYLE
+         ═══════════════════════════════════════════════════════════════════════ -->
+    <style name="CardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+</resources>

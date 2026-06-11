@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Launcher foreground icon: a simple rupee symbol -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- White circle background -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M54,54m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0" />
+    <!-- Rupee ₹ symbol -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M38,32h32v5H55c1.5,1.5 2.5,3.5 2.7,5.5H70v5H57.7c-0.7,5.5-5.3,9.5-10.7,9.5H43l14,16h-7L35,56v-5h12c3.3,0 6-2.5 6.4-5.5H35V41h18.4C53,38.5 50.3,37 47,37H38V32Z" />
+</vector>
